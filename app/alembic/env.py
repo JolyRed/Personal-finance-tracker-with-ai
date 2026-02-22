@@ -6,7 +6,7 @@ from app.utils.config import settings
 
 from app.models.users import User
 from app.models.wallets import Wallet
-from app.models.incomes import Income
+from app.models.transaction import Transaction
 from app.models.categories import Category
 
 config = context.config
